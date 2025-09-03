@@ -8,6 +8,7 @@ import Game from './pages/Game'
 export default function App() {
   return (
     <>
+    
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Login/>} ></Route>
