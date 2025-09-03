@@ -1,0 +1,21 @@
+{
+  "name": "riddleswebclient",
+  "version": "1.0.0",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eazyrr22/RiddleGameWeb-Client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eazyrr22/RiddleGameWeb-Client/issues"
+  },
+  "homepage": "https://github.com/eazyrr22/RiddleGameWeb-Client#readme"
+}
