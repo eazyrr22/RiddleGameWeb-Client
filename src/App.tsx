@@ -1,4 +1,3 @@
-import React from 'react'
 import { Routes,Route } from 'react-router'
 import Home from './pages/Home'
 import Login from './pages/Login'
@@ -8,7 +7,7 @@ import Game from './pages/Game'
 
 export default function App() {
   return (
-    <div>
+    <>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Login/>} ></Route>
@@ -16,6 +15,6 @@ export default function App() {
         <Route path='admin' element={<Admin/>}></Route>
         <Route path='game' element={<Game/>}></Route>
       </Routes>
-    </div>
+    </>
   )
 }
