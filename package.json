@@ -475,7 +475,6 @@
     "vary": "^1.1.2",
     "vfile": "^5.3.7",
     "vfile-message": "^3.1.4",
-    "vite": "^7.1.4",
     "vite-node": "^3.2.4",
     "wcwidth": "^1.0.1",
     "web-encoding": "^1.1.5",
@@ -495,7 +494,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
+    "build": "remix vite:build",
+    "start": "remix-serve ./build",
+     "dev": "remix vite:dev"
   },
   "repository": {
     "type": "git",
@@ -509,7 +510,9 @@
   },
   "homepage": "https://github.com/eazyrr22/RiddleGameWeb-Client#readme",
   "devDependencies": {
+    "@remix-run/dev": "^2.17.0",
     "@types/react": "^19.1.12",
-    "@types/react-dom": "^19.1.9"
+    "@types/react-dom": "^19.1.9",
+    "vite": "^6.3.5"
   }
 }
