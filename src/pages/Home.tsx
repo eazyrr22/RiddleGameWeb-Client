@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <>
+    <div className="home-card">
       <h1 className="title">Riddle Game </h1>
-      <header>
+      <header className="home-header">
         <div>guest </div>
         <div>mode </div>
       </header>
@@ -15,6 +15,6 @@ export default function Home() {
         <Link to="/login">Login</Link>
         <Link to="/leaderBoard">LeaderBoard</Link>
       </div>
-    </>
+    </div>
   );
 }
